@@ -29,5 +29,18 @@ just to test some gitflows and see how
     git commit -m "some changes are done on feature branch"
     ```
 
+# back to dev
+
+* dev branch needs to get stuff from feature branches, and hopefuly triggers a build and deploy to DEV env.
 
 
+    ```
+    # switch back to dev
+    git checkout dev
+    # pull the changes from feature, here there is debate, whether we merge or rebase
+    git pull origin feature/feature-001
+    # now your local dev has the changes from feature branch, use git push to update dev
+    git push
+    ```
+
+* above process should be done via a pull request, do direct push to dev should be allowed.
