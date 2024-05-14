@@ -1,5 +1,12 @@
 # gitflows
-just to test some gitflows and see how
+* just to test some gitflows and see how
+
+    ```
+    git checkout -b hotfix/some-fix-001
+    # do something commit and push 
+    ```
+
+* go to github and merge to main
 
 
 # before start
@@ -44,3 +51,28 @@ just to test some gitflows and see how
     ```
 
 * above process should be done via a pull request, do direct push to dev should be allowed.
+
+# PR to update the main from dev
+
+* using github frontned, then merge
+
+# now lets say we have another feature...
+
+    and there is a hotfix done ...
+    ```
+    git checkout -b feature/feature-002
+    ```
+
+    get the changes from the hot fix (which merged to main already)
+
+    ```
+    git pull origin main --no-rebase
+    ```
+
+    if no rebase, it pull and creates a merge commit..
+    then you can push all up.
+
+    now lets merge this to dev..
+
+
+
