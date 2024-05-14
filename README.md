@@ -22,4 +22,12 @@ just to test some gitflows and see how
     git checkout -b feature/feature-001
     ```
 
+* do some edit, do some commit
+
+    ```
+    git add .
+    git commit -m "some changes are done on feature branch"
+    ```
+
+
 
