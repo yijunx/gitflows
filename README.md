@@ -1,5 +1,12 @@
 # gitflows
-just to test some gitflows and see how
+* just to test some gitflows and see how
+
+    ```
+    git checkout -b hotfix/some-fix-001
+    # do something commit and push 
+    ```
+
+* go to github and merge to main
 
 
 # before start
