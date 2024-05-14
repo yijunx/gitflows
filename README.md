@@ -44,3 +44,14 @@ just to test some gitflows and see how
     ```
 
 * above process should be done via a pull request, do direct push to dev should be allowed.
+
+# PR to update the main from dev
+
+* using github frontned, then merge
+
+# now lets say we have another feature...
+
+    ```
+    git checkout -b feature/feature-002
+    ```
+
