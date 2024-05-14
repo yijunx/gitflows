@@ -66,6 +66,13 @@
     get the changes from the hot fix (which merged to main already)
 
     ```
-    git pull origin main
+    git pull origin main --no-rebase
     ```
+
+    if no rebase, it pull and creates a merge commit..
+    then you can push all up.
+
+    now lets merge this to dev..
+
+
 
