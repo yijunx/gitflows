@@ -51,7 +51,14 @@ just to test some gitflows and see how
 
 # now lets say we have another feature...
 
+    and there is a hotfix done ...
     ```
     git checkout -b feature/feature-002
+    ```
+
+    get the changes from the hot fix (which merged to main already)
+
+    ```
+    git pull origin main
     ```
 
